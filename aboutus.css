@@ -1,0 +1,34 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: sans-serif;
+    align-items: center;
+    font-family: sans-serif;
+
+}
+body{
+    background-color: black;
+    color: white;
+    text-align: center;
+    margin-top: 5cm;
+}
+
+#qq{
+    font-size: 30px;
+}
+ul{
+    border: solid;
+   border-radius: 0.5cm;
+   width: 16cm;
+   height: 6cm;
+margin-left: 12cm;
+text-align: center;
+}
+li{
+    padding: 0.5cm;
+}
+a{
+    text-decoration: none;
+    color: black;
+
+}

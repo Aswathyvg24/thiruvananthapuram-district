@@ -1,0 +1,79 @@
+*{
+    margin: 0px;
+    font-family: sans-serif;
+}
+html{
+    background-image: url("tvm.jpg");
+background-size: cover;
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-position: center;
+background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url("tvm.jpg");
+}
+.list ul{
+    float: right;
+    list-style-type: none;
+    margin-top: 1cm;
+    margin-right: 2cm;
+    font-size: 22px;
+
+}
+.list ul li{
+    display: inline; 
+
+}
+ul li a{
+    text-decoration: none;
+    padding: 10px 30px;
+    border: solid transparent;
+    color: white;
+    transition: 0.6s ease;
+}
+a:hover{
+    color: wheat;
+
+}
+h1{
+color: white;
+position: absolute;
+
+top: 7.5cm;
+left: 14cm;
+font-size: 45px;
+text-align: center;
+}
+h2{
+    color: rgb(211, 144, 144);
+position: absolute;
+top: 9.5cm;
+left: 17cm;
+}
+.leaf img{
+    width: 2cm;
+    margin-left: 1cm;
+    margin-top: none;
+}
+button{
+    color: rgb(8, 8, 8);
+position: absolute;
+top: 10.5cm;
+left: 19.5cm;
+font-size: 17px;
+text-align: center;
+border-radius: 1cm;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    color: black;
+    background-color: wheat;
+}
+p{
+    color: white;
+    font-size: 12px;
+margin-top: none;
+margin-left: 0.2cm;
+}

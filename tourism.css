@@ -1,0 +1,99 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: sans-serif;
+}
+body{
+    background-color: black;
+}
+
+
+
+.list ul{
+    float: right;
+    list-style-type: none;
+    margin-top: 1cm;
+    margin-right: 2cm;
+    font-size: 22px;
+
+}
+.list ul li{
+    display: inline; 
+
+}
+ul li a{
+    text-decoration: none;
+    padding: 10px 30px;
+    border: solid transparent;
+    color: white;
+    transition: 0.6s ease;
+}
+a:hover{
+    color: wheat;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    color: black;
+    background-color: wheat;
+}
+.leaf img{
+    width: 2cm;
+    margin-left: 1cm;
+    margin-top: none;
+}
+p{
+    color: white;
+    font-size: 12px;
+margin-top: none;
+margin-left: 0.2cm;
+}
+
+.maindiv{
+    width:40%;
+    height:400px;
+    position: absolute;
+    left: 20%;
+    top:50%;
+    margin-left: 1cm;
+    background-image: url(img1.jpg);
+    background-size: 100% 100%;
+    transform: translate(-50%,-30%);
+    box-shadow: 1px 2px 10px 5px;
+    animation: slider 25s infinite ;
+   }
+  
+@keyframes slider{
+   20%{ background-image: url('img2.jpg'); background-size:100% 100%;}
+   40%{background-image: url('img3.jpg'); background-size:100% 100%;}
+  60%{ background-image: url('img4.jpg'); background-size:100% 100%;}
+   80%{ background-image: url('img5.jpg'); background-size:100% 100%;}
+   100%{ background-image: url('6.png'); background-size:100% 100%;}
+
+
+   }
+   .attraction{
+       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+       margin-left: 50%;
+       color: bisque;
+   }
+   #newh1{
+       color: bisque;
+       font-family: sans-serif;
+       font-size: 30px;
+       text-align: center;
+       margin-top: 1.2cm;
+   }
+   #zoo{
+    color: white;
+    margin-left: 55%;
+    padding: 42px 
+
+    
+   }
+   ol li a{
+       text-decoration: none;
+       color: white;
+   }
